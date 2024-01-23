@@ -22,7 +22,7 @@ public class App {
 
             switch(valinta) {
                 case 1:
-                    System.out.println("Mikä laji?:");
+                    System.out.println("Mikä laji?");
                     String laji = scanner.nextLine();
                     
                     System.out.println("Anna eläimen nimi:");
@@ -55,7 +55,7 @@ public class App {
                     break;
 
                 default:
-                    System.out.println("Syöte oli väärä.");
+                    System.out.println("Syöte oli väärä");
                     break;
                 }
             }
